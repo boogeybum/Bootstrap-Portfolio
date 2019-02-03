@@ -1,22 +1,39 @@
-label {
-    display: inline-block;
-    margin-bottom: .5rem;
-    /* display: flex; */
-    -ms-flex-align: center;
-    /* align-items: center; */
-    padding: .375rem .75rem;
-    margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #e9ecef;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+
+
+.navbar-brand {
+    font-size: 2rem;
 }
 
-.btn-block {
-    border-radius: 0rem;
+.jumbotron {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.display-4 {
+    padding-bottom: 1rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+}
+
+.lead {
+    text-indent: 1.5em;;
+}
+
+@media (min-width: 992px){
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1071;
+    }
+}
+
+@media (max-width: 452px){
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
 }
