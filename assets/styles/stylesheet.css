@@ -1,7 +1,13 @@
-
+html body {
+    background-color: #343434;
+}
 
 .navbar-brand {
     font-size: 2rem;
+}
+
+.navbar {
+    background-color: #d14c18;
 }
 
 .jumbotron {
